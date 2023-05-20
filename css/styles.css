@@ -28,12 +28,13 @@ body {
 }
 
 .section {
-  padding: 120px 24px;
+  padding: 120px 0;
 }
 
 .link {
   font-family: inherit;
   text-decoration: none;
+  padding: 24px 0;
 }
 .link:hover,
 .link:focus {
@@ -95,6 +96,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-title-color);
+  margin-bottom: 8px;
 }
 .card-text {
   line-height: 1.5;
@@ -102,7 +104,7 @@ body {
   color: var(--body-text-color);
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -111,12 +113,11 @@ body {
 /**------------------- HEADER -----------------*/
 .header {
   background-color: var(--white-background-color);
+  border-bottom: 1px solid var(--light-accent-color);
 }
 
 .header-container {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .navigation {
@@ -153,7 +154,10 @@ body {
 /**------------------- HERO -----------------*/
 .hero {
   background-color: var(--dark-osh-color);
-  padding-top: 188px;
+}
+
+.hero-section {
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -164,8 +168,6 @@ body {
   letter-spacing: 0.02em;
   width: 496px;
   height: 120px;
-  margin: 0;
-  align-content: center;
 }
 
 .hero-btn {
@@ -175,12 +177,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  align-items: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 /**--------------- DESCRIPTION ---------------*/
 .descr {
   background-color: var(--white-background-color);
+  padding: 0 0 120px 0;
 }
 
 .descr-title {
@@ -190,8 +197,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-title-color);
+  margin-bottom: 72px;
 }
 
+.descr-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.descr-img-item {
+  width: calc((100% - 48px) / 3);
+}
 /**------------------- TEAM -----------------*/
 .team {
   background-color: var(--light-body-color);
@@ -204,19 +219,41 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
+.team-card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.team-member-info {
+  padding: 32px 16px;
+}
+
+.member-title {
+  text-align: center;
+}
+.member-text {
+  text-align: center;
+}
 /**------------------- FOOTER -----------------*/
 .footer {
   background-color: var(--dark-osh-color);
+  padding: 100px 0;
 }
 
 .footer-text {
   color: var(--light-body-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /**------------------- PORTFOLIO buttons -----------------*/
 .pf-btn {
   background-color: var(--light-body-color);

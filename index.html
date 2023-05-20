@@ -24,7 +24,7 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container header-container">
         <nav class="navigation">
           <a href="./index.html" class="link logo header-logo"
@@ -55,36 +55,38 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="hero section">
+      <section class="hero section hero-section">
+        <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="btn hero-btn">Order Service</button>
-        </section>
-        <section class="section">
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
           <h2 hidden class="visually-hidden">Features</h2>
           <ul class="list">
-            <li>
+            <li class="descr-item">
               <h3 class="card-title">Strategy</h3>
               <p class="card-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="descr-item">
               <h3 class="card-title">Punctuality</h3>
               <p class="card-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="descr-item">
               <h3 class="card-title">Diligence</h3>
               <p class="card-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="descr-item">
               <h3 class="card-title">Technologies</h3>
               <p class="card-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -92,11 +94,13 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section class="descr section">
+        </div>
+      </section>
+      <section class="descr section">
+        <div class="container">
           <h2 class="descr-title">What are we doing</h2>
           <ul class="list">
-            <li>
+            <li class="descr-img-item">
               <img
                 src="./images/img1.jpg"
                 alt="image 1"
@@ -104,7 +108,7 @@
                 height="300"
               />
             </li>
-            <li>
+            <li class="descr-img-item">
               <img
                 src="./images/img2.jpg"
                 alt="image 2"
@@ -112,7 +116,7 @@
                 height="300"
               />
             </li>
-            <li>
+            <li class="descr-img-item">
               <img
                 src="./images/img3.jpg"
                 alt="image 3"
@@ -121,57 +125,67 @@
               />
             </li>
           </ul>
-        </section>
-        <section class="team section">
+        </div>
+      </section>
+      <section class="team section">
+        <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="list">
-            <li class="card">
+            <li class="card team-card">
               <img
                 src="./images/photo1.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Mark Guerrero</h3>
-              <p class="card-text">Product Designer</p>
+              <div class="team-member-info">
+                <h3 class="card-title member-title">Mark Guerrero</h3>
+                <p class="card-text member-text">Product Designer</p>
+              </div>
             </li>
-            <li class="card">
+            <li class="card team-card">
               <img
                 src="./images/photo2.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Tom Ford</h3>
-              <p class="card-text">Frontend Developer</p>
+              <div class="team-member-info">
+                <h3 class="card-title member-title">Tom Ford</h3>
+                <p class="card-text member-text">Frontend Developer</p>
+              </div>
             </li>
-            <li class="card">
+            <li class="card team-card">
               <img
                 src="./images/photo3.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Camila Garcia</h3>
-              <p class="card-text">Marketing</p>
+              <div class="team-member-info">
+                <h3 class="card-title member-title">Camila Garcia</h3>
+                <p class="card-text member-text">Marketing</p>
+              </div>
             </li>
-            <li class="card">
+            <li class="card team-card">
               <img
                 src="./images/photo4.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Daniel Wilson</h3>
-              <p class="card-text">UI Designer</p>
+              <div class="team-member-info">
+                <h3 class="card-title member-title">Daniel Wilson</h3>
+                <p class="card-text member-text">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="link logo"
+        <a href="./index.html" class="link logo footer-logo"
           >Web<span class="logo-light-part">Studio</span></a
         >
         <p class="footer-text">
