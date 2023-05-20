@@ -143,6 +143,7 @@ img {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-link {
   color: var(--body-text-color);
@@ -181,6 +182,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
