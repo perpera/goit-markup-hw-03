@@ -123,7 +123,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  /* margin-right: 332px; */
 }
 
 .header-logo {
@@ -149,6 +149,7 @@ img {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
 }
 
 /**------------------- HERO -----------------*/
@@ -158,6 +159,8 @@ img {
 
 .hero-section {
   padding: 188px 0;
+  display: flex;
+  margin: auto;
 }
 
 .hero-title {
