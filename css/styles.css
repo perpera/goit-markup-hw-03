@@ -20,6 +20,13 @@ body {
   background-color: var(--white-background-color);
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -48,6 +55,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  padding: 0;
 }
 .logo-dark-part {
   color: var(--dark-title-color);
@@ -123,7 +131,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  /* margin-right: 332px; */
 }
 
 .header-logo {
@@ -172,6 +179,7 @@ img {
   letter-spacing: 0.02em;
   max-width: 496px;
   height: 120px;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
